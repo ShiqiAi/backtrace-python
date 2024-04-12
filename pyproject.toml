@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "backtrace-python"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+packages = [{ include = "backtracepython", from = "./" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+simplejson = "^3.19.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
