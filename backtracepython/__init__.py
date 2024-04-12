@@ -133,9 +133,7 @@ class BacktraceReport:
             'entrySourceCode': entry_source_code_id,
             'cwd': cwd_path,
             'attributes': init_attrs,
-            'annotations': {
-                'Environment Variables': dict(os.environ),
-            },
+            'annotations': {},
         }
 
     def set_exception(self, garbage, ex_value, ex_traceback):
